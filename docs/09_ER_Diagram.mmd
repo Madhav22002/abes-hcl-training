@@ -1,0 +1,53 @@
+erDiagram
+    campaigns ||--o{ daily_performance : "generates (1:N)"
+    channels ||--o{ daily_performance : "delivers (1:N)"
+    audience_segments ||--o{ daily_performance : "targets (1:N)"
+    creatives ||--o{ daily_performance : "deploys (1:N)"
+
+    campaigns {
+        TEXT campaign_id PK "Unique campaign ID (e.g. CMP-001)"
+        TEXT campaign_name "Descriptive campaign name"
+        TEXT objective "Strategic marketing goal"
+        TEXT start_date "Launch date (YYYY-MM-DD)"
+        TEXT end_date "Completion date (YYYY-MM-DD)"
+        REAL budget_inr "Sanctioned budget in INR"
+        TEXT status "Operational status (Active/Completed/Paused)"
+    }
+
+    channels {
+        TEXT channel_id PK "Unique channel ID (e.g. CH-01)"
+        TEXT channel_name "Channel name (Google Search, LinkedIn, etc.)"
+        TEXT channel_type "Media classification"
+        TEXT cost_model "Pricing model (CPC, CPM, CPA, CPV)"
+    }
+
+    audience_segments {
+        TEXT segment_id PK "Unique segment ID (e.g. SEG-01)"
+        TEXT segment_name "Audience cohort title"
+        TEXT region "Geographic cluster (Delhi-NCR, Bengaluru, etc.)"
+        TEXT target_age_band "Demographic age range"
+        TEXT primary_device "Target device (Desktop, Mobile, Multi-device)"
+    }
+
+    creatives {
+        TEXT creative_id PK "Unique creative asset ID (e.g. CRT-01)"
+        TEXT creative_name "Creative title"
+        TEXT creative_format "Asset format (PDF, Video, Carousel, Tool)"
+        TEXT messaging_theme "Value proposition angle"
+        TEXT offer_type "Call-to-action offer type"
+    }
+
+    daily_performance {
+        INTEGER fact_id PK "Surrogate fact ID (AUTOINCREMENT)"
+        TEXT report_date "Execution date (YYYY-MM-DD)"
+        TEXT campaign_id FK "References campaigns(campaign_id)"
+        TEXT channel_id FK "References channels(channel_id)"
+        TEXT segment_id FK "References audience_segments(segment_id)"
+        TEXT creative_id FK "References creatives(creative_id)"
+        INTEGER impressions "Ad views served (>= 0)"
+        INTEGER clicks "Ad interactions (>= 0)"
+        INTEGER conversions "Target actions achieved (>= 0)"
+        REAL spend_inr "Daily spend incurred (>= 0.0)"
+        REAL revenue_inr "Attributed revenue (>= 0.0)"
+        INTEGER reach "Unique reach count (>= 0)"
+    }

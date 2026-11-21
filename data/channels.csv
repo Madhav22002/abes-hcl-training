@@ -1,0 +1,6 @@
+channel_id,channel_name,channel_type,cost_model
+CH-01,Google Search,Search Engine Marketing,CPC
+CH-02,LinkedIn Ads,Professional Social Network,CPC
+CH-03,Meta Ads,B2B Social & Display,CPM
+CH-04,Inbound Email Marketing,Direct Email Inbound,CPA
+CH-05,YouTube Video Ads,Video Advertising,CPV

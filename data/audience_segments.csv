@@ -1,0 +1,6 @@
+segment_id,segment_name,region,target_age_band,primary_device
+SEG-01,Enterprise IT Leaders - North India,North India (Delhi-NCR),35-52,Desktop
+SEG-02,Mid-Market CTOs - South India,South India (Bengaluru/Hyderabad),30-48,Desktop
+SEG-03,Fintech & Banking Innovators - West,West India (Mumbai/Pune),28-45,Multi-device
+SEG-04,Tech SMBs & Manufacturers - East,East India (Kolkata/Bhubaneswar),32-55,Mobile
+SEG-05,SaaS & AI Startups Pan-India,Pan-India Tier 1,25-38,Multi-device
