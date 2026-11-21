@@ -29,7 +29,8 @@ PROJECT_METADATA = {
     "institution": "ABES Engineering College, Ghaziabad",
     "mentor_name": "Kalpana Dwivedi",
     "date": "2026-11-21",
-    "repo_slug": "2503201450085-marketing-campaign-performance-analysis",
+    "repo_slug": "Madhav22002/abes-hcl-training",
+    "github_url": "https://github.com/Madhav22002/abes-hcl-training",
     "organisation": "AuraNova Digital Solutions Pvt. Ltd.",
     "org_description": (
         "A fictional 500-employee IT consulting, cloud solutions, and digital-services "

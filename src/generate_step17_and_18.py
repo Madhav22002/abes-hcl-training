@@ -105,7 +105,7 @@ def generate_step17_project_document():
         ("Academic Institution", PROJECT_METADATA["institution"]),
         ("Faculty Mentor", f"Prof. {PROJECT_METADATA['mentor_name']}"),
         ("Project Submission Date", PROJECT_METADATA["date"]),
-        ("GitHub Repository", "PENDING (Ready for remote push)"),
+        ("GitHub Repository", "https://github.com/Madhav22002/abes-hcl-training"),
         ("Live Deployment URL", "PENDING (Ready for Streamlit Community Cloud)")
     ]
     for i, (k, v) in enumerate(cover_data):
@@ -534,7 +534,7 @@ def generate_step18_presentation():
     add_bullets(s11, [
         "Web Application Status: Streamlit application running live and healthy on localhost:8501.",
         "Live Deployment Target: Streamlit Community Cloud (URL Status: PENDING user account linkage).",
-        "GitHub Repository Target: 2503201450085-marketing-campaign-performance-analysis (Status: PENDING remote push).",
+        "GitHub Repository: https://github.com/Madhav22002/abes-hcl-training (Branch: main)",
         "Deliverables Package: 13 formal documents (DOCX), 2 Excel workbooks (RTM & DB Design), SQLite DB, and full source code.",
         "Academic Compliance: Completely adheres to ABES Engineering College MCA 2nd Year project guidelines.",
         "Thank You: Open for evaluators' questions and technical demonstration."

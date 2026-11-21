@@ -6,7 +6,7 @@
 **Roll Number:** 2503201450085  
 **Project Mentor:** Prof. Kalpana Dwivedi  
 **Date:** November 21, 2026  
-**Repository Slug:** `2503201450085-marketing-campaign-performance-analysis`
+**Repository:** `https://github.com/Madhav22002/abes-hcl-training`
 
 ---
 
