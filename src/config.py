@@ -31,6 +31,7 @@ PROJECT_METADATA = {
     "date": "2026-11-21",
     "repo_slug": "Madhav22002/abes-hcl-training",
     "github_url": "https://github.com/Madhav22002/abes-hcl-training",
+    "streamlit_url": "https://25003201450087-p078.streamlit.app/",
     "organisation": "AuraNova Digital Solutions Pvt. Ltd.",
     "org_description": (
         "A fictional 500-employee IT consulting, cloud solutions, and digital-services "

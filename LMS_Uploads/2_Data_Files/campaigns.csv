@@ -1,0 +1,6 @@
+campaign_id,campaign_name,objective,start_date,end_date,budget_inr,status
+CMP-001,Cloud Migration Wave 2026,Enterprise Lead Generation,2026-01-10,2026-09-25,850000.0,Active
+CMP-002,CyberGuard AI Launch,Product Awareness & Trials,2026-02-01,2026-09-30,650000.0,Active
+CMP-003,SaaS ERP Modernisation Drive,Qualified B2B Demos,2026-01-15,2026-08-30,720000.0,Completed
+CMP-004,Custom DevOps Retargeting,Mid-Funnel Re-engagement,2026-03-01,2026-09-30,420000.0,Active
+CMP-005,Digital Transformation Summit Noida,Event Registrations & Branding,2026-02-15,2026-07-20,950000.0,Completed

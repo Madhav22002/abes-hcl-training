@@ -6,7 +6,8 @@
 **Roll Number:** 2503201450085  
 **Project Mentor:** Prof. Kalpana Dwivedi  
 **Date:** November 21, 2026  
-**Repository:** `https://github.com/Madhav22002/abes-hcl-training`
+**Repository:** `https://github.com/Madhav22002/abes-hcl-training`  
+**Live Deployed Application:** `https://25003201450087-p078.streamlit.app/`
 
 ---
 
@@ -165,4 +166,4 @@ The application will open automatically in your browser at `http://localhost:850
 - Repository is structured with `app.py` and `requirements.txt` at the root.
 - All file operations use deterministic `Path(__file__).resolve()` paths.
 - Database (`data/app.db`) is committed and bundled for zero-configuration Community Cloud deployment.
-- Live URL: `PENDING` (Ready for push to `https://github.com/madhavdutta/2503201450085-marketing-campaign-performance-analysis`).
+- Live Deployed URL: `https://25003201450087-p078.streamlit.app/` (Active & Publicly Accessible on Streamlit Community Cloud).

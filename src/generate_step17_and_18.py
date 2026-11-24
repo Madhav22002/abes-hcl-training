@@ -106,7 +106,7 @@ def generate_step17_project_document():
         ("Faculty Mentor", f"Prof. {PROJECT_METADATA['mentor_name']}"),
         ("Project Submission Date", PROJECT_METADATA["date"]),
         ("GitHub Repository", "https://github.com/Madhav22002/abes-hcl-training"),
-        ("Live Deployment URL", "PENDING (Ready for Streamlit Community Cloud)")
+        ("Live Deployment URL", "https://25003201450087-p078.streamlit.app/")
     ]
     for i, (k, v) in enumerate(cover_data):
         c0, c1 = cover_table.cell(i, 0), cover_table.cell(i, 1)
@@ -532,8 +532,8 @@ def generate_step18_presentation():
     # ---------------- Slide 11: Live Demo & Conclusion ----------------
     s11 = add_styled_slide("Live Demonstration & Academic Verification", "Project wrap-up, deliverables inventory, and live system access")
     add_bullets(s11, [
-        "Web Application Status: Streamlit application running live and healthy on localhost:8501.",
-        "Live Deployment Target: Streamlit Community Cloud (URL Status: PENDING user account linkage).",
+        "Web Application Live URL: https://25003201450087-p078.streamlit.app/",
+        "Deployment Platform: Streamlit Community Cloud (Active & Publicly Accessible).",
         "GitHub Repository: https://github.com/Madhav22002/abes-hcl-training (Branch: main)",
         "Deliverables Package: 13 formal documents (DOCX), 2 Excel workbooks (RTM & DB Design), SQLite DB, and full source code.",
         "Academic Compliance: Completely adheres to ABES Engineering College MCA 2nd Year project guidelines.",
