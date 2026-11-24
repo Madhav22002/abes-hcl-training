@@ -71,18 +71,16 @@ def style_data_cell(cell, text, align=WD_ALIGN_PARAGRAPH.LEFT, bg_color=None, bo
         r.font.color.rgb = RGBColor(30, 41, 59)
 
 def build_report_docx():
-    # Make sure logo exists
-    create_abes_logo()
-
     doc = Document()
 
-    # 1. Header with Embedded ABES Logo
+    # 1. Header with Embedded ABES Logo (Official user-provided crest)
     p_logo = doc.add_paragraph()
     p_logo.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p_logo.paragraph_format.space_before = Pt(10)
-    p_logo.paragraph_format.space_after = Pt(12)
-    doc.add_picture(str(LOGO_PATH), width=Inches(1.8))
-    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p_logo.paragraph_format.space_before = Pt(8)
+    p_logo.paragraph_format.space_after = Pt(10)
+    if LOGO_PATH.exists():
+        doc.add_picture(str(LOGO_PATH), width=Inches(2.0))
+        doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # College Title
     p_inst = doc.add_paragraph()
