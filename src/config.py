@@ -3,7 +3,7 @@ Project Configuration, Master ID Register, and Assumptions
 Project: Marketing Campaign Performance Analysis
 Student: Madhav Dutta (Roll No: 2503201450085)
 Institution: ABES Engineering College, Ghaziabad
-Mentor: Kalpana Dwivedi
+Mentor: Dinesh Sereno
 Organisation: AuraNova Digital Solutions Pvt. Ltd. (Noida, UP, India)
 """
 
@@ -27,7 +27,7 @@ PROJECT_METADATA = {
     "roll_number": "2503201450085",
     "programme": "MCA, 2nd Year, Data Analytics",
     "institution": "ABES Engineering College, Ghaziabad",
-    "mentor_name": "Kalpana Dwivedi",
+    "mentor_name": "Dinesh Sereno",
     "date": "2026-11-21",
     "repo_slug": "Madhav22002/abes-hcl-training",
     "github_url": "https://github.com/Madhav22002/abes-hcl-training",

@@ -1,7 +1,7 @@
 """
 Build official College LMS Step 3 Compact Project Report (Strictly 4 Pages):
 File: 2500320140087_MadhavDutta_Project_Report.pdf
-Metadata: P078, Kalpana Dwivedi, Madhav Dutta, 2500320140087, ABES Engineering College
+Metadata: P078, Dinesh Sereno, Madhav Dutta, 2500320140087, ABES Engineering College
 Degree: Master of Computer Applications (MCA) in Computer Applications
 Training Programme: HCLTech Career Shaper Programme
 Structure:
@@ -252,7 +252,7 @@ def build_4page_report():
         ("Submitted by:", "Madhav Dutta"),
         ("University Roll Number:", "2500320140087 (Reg: 2503201450085)"),
         ("Project Identifier:", "P078"),
-        ("Project Guide:", "Prof. Kalpana Dwivedi"),
+        ("Project Guide:", "Dinesh Sereno"),
         ("Academic Session:", "2026–2027"),
         ("Submission Date:", "November 2026"),
         ("Live Deployment URL:", "https://25003201450087-p078.streamlit.app/")
@@ -471,7 +471,7 @@ def build_4page_report():
     p_s1.paragraph_format.space_after = Pt(0)
     p_s1.add_run(
         "Faculty Mentor Approval:\n"
-        "Prof. Kalpana Dwivedi\n"
+        "Dinesh Sereno\n"
         "Department of Computer Applications\n"
         "HCLTech Career Shaper Programme (Project ID: P078)\n"
         "Live App: https://25003201450087-p078.streamlit.app/"

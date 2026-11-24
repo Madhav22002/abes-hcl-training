@@ -4,7 +4,7 @@
 **Institution:** ABES Engineering College, Ghaziabad  
 **Student:** Madhav Dutta  
 **Roll Number:** 2503201450085  
-**Project Mentor:** Prof. Kalpana Dwivedi  
+**Project Mentor:** Dinesh Sereno  
 **Date:** November 21, 2026  
 **Repository:** `https://github.com/Madhav22002/abes-hcl-training`  
 **Live Deployed Application:** `https://25003201450087-p078.streamlit.app/`
